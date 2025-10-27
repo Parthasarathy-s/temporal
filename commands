@@ -6,3 +6,4 @@ kill -9 $(lsof -ti:7233)
 
 
   
+https://docs.temporal.io/develop/java/set-up-your-local-java

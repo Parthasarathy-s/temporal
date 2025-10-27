@@ -1,0 +1,7 @@
+brew install temporal
+
+temporal server start-dev \--db-filename temp/temporal
+
+
+
+  

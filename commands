@@ -1,6 +1,6 @@
 brew install temporal
 
-temporal server start-dev \--db-filename temp/temporal
+temporal server start-dev --port 7000 --ui-port 3000 --db-filename temp/temporal
 
 kill -9 $(lsof -ti:7233)
 
